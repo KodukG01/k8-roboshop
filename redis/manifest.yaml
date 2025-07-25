@@ -40,8 +40,8 @@ spec:
     project: roboshop
     tier: database
   ports:
-    protocol: TCP
-    port: 6379
-    targetPort: 6379
+    - protocol: TCP
+      port: 6379
+      targetPort: 6379
 
   
