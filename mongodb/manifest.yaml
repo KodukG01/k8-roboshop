@@ -27,7 +27,7 @@ spec:
 
 ---
 apiVersion: v1
-kind: service
+kind: Service
 metadata:
   name: mongodb
   namespace: roboshop
@@ -44,4 +44,3 @@ spec:
     - protocol: TCP
       port: 27017
       targetPort: 27017
-      
